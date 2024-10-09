@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 94%);
+
+}
+.cont {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.card-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    width: 451px;
+    height: 660px;
+    background-color: hsl(225, 100%, 98%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cont .card-cont .img {
+    background: url('../images/illustration-hero.svg') center center no-repeat;
+    background-size: cover;
+    width: 451px;
+    height: 222px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cont .informacoes h1 {
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cont .informacoes p {
+    color: hsl(224, 23%, 55%);
+    margin-top: 20px;
+    
+}
+
+.card-musica {
+    background-color: hsl(225, 100%, 94%);
+    width: 354px;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.card-musica-nome {
+    background-color: hsl(225, 44%, 45%);
+}
+.card-musica p {
+    d
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
