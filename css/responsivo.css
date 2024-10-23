@@ -1,0 +1,25 @@
+@media(max-width: 600px) {
+    body {
+        background: url('../images/pattern-background-mobile.svg') center center no-repeat;
+        background-size: cover;
+    }
+    .card-cont {
+        width: 375px;
+    }
+    
+    .cont .card-cont .img {
+        width: 375px;
+    }
+
+    .cont .informacoes p {
+        font-size: 18px;
+    }
+
+    .cont .card-musica {
+        width: 300px;
+    }
+
+    .cont .decoração-butao {
+        width: 300px;
+    }
+}
